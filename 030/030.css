@@ -1,0 +1,115 @@
+body{
+	background:transparent url("bkgd.jpg") repeat;
+	margin:0;
+	padding:0;
+}
+.page-wrapper{
+	width:760px;
+	margin:auto;
+	background:url("mid.jpg") repeat-y center;
+}
+.intro{
+	margin:0;
+	background: url("top.jpg") no-repeat top center;
+	padding-top:186px;
+}
+header h1,header h2{
+	display:none;
+}
+.summary,.preamble,.supporting{
+	margin-right:80px;
+	margin-left:300px;
+	width:380px;
+	font:12px "Î¢ÈíÑÅºÚ";
+}
+footer{
+	margin:0 -80px 0 -300px;
+	background: url(bot.jpg) no-repeat center bottom;
+	padding-bottom:100px;
+	text-align:center;
+}
+.summary{
+	margin-top:30px;
+}
+.preamble h3:first-letter,.preamble h3:first-letter,.supporting h3:first-letter{
+	font-size:1.5em;
+}
+.preamble h3,.preamble h3,.supporting h3{
+	letter-spacing:0.8em;
+}
+p+p{
+	text-indent:15px;
+}
+.sidebar{
+	position:absolute;
+	width:195px;
+	margin-left:90px;
+	top:180px;
+	text-align: center;
+	border-right:1px dotted #930;
+	background: url(b4.jpg) no-repeat bottom center;
+	padding-bottom: 110px;
+}
+.sidebar h3{
+
+	font-style:italic;
+}
+.sidebar h3.select{
+	background: url(b1.jpg) no-repeat top center;
+	padding-top:110px;
+}
+.sidebar h3.archives{
+	background: url(b2.jpg) no-repeat top center;
+	padding-top:110px;
+	margin-top:10px;
+}
+.sidebar h3.resources{
+	background: url(b3.jpg) no-repeat top center;
+	padding-top:110px;
+	margin-top:10px;
+}
+.sidebar ul{
+	margin-top:-9px;
+	list-style-type:none;
+	font-size: 12px;
+	margin-left: -40px;
+}
+.sidebar li{
+	background: url(listline.gif) no-repeat bottom center;
+	padding-bottom:15px;
+}
+.sidebar a{
+	text-decoration:none;
+	color:#039;
+	text-transform: uppercase;
+}
+
+.sidebar .design-name {
+	display: block;
+}
+.sidebar .designer-name {
+	font-size: 12px;
+}
+a:link,a:visited{
+	font-style:italic;
+}
+a:hover,a:active{
+	background: #626200;
+	font-style:normal;
+}
+p{
+	margin-top:-0.8em;
+}
+footer a:link,
+footer a:visited {
+	color: #390404;
+	font-size: 15px;
+	text-decoration: none;
+	margin-left: 5px;
+}
+footer a:before{
+	content:"{"
+}
+footer a:after{
+	 content:"}"
+ }
